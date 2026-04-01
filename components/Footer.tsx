@@ -105,13 +105,21 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                 <Phone size={16} className="text-gold shrink-0" />
                 +256 752 685 815
               </a>
+              <a href="tel:+256709240027" className="flex items-center gap-2 hover:text-gold transition-colors cursor-pointer">
+                <Phone size={16} className="text-gold shrink-0" />
+                +256 709 240 027
+              </a>
+              <a href="tel:+256778204671" className="flex items-center gap-2 hover:text-gold transition-colors cursor-pointer">
+                <Phone size={16} className="text-gold shrink-0" />
+                +256 778 204 671
+              </a>
               <a href="mailto:nabiteekorukia12@gmail.com" className="flex items-center gap-2 hover:text-gold transition-colors cursor-pointer">
                 <Mail size={16} className="text-gold shrink-0" />
                 nabiteekorukia12@gmail.com
               </a>
               <p className="flex items-start gap-2">
                 <MapPin size={16} className="text-gold shrink-0 mt-0.5" />
-                Busula, Kampala–Luweero Highway, Uganda
+                Busula Town, near Mukam Mulugi Petrol Station, Luwero
               </p>
             </div>
           </div>

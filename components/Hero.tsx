@@ -140,7 +140,7 @@ const Hero: React.FC<HeroProps> = ({
           >
             <MapPin className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-gold shrink-0" aria-hidden />
             <span className="text-white/70 text-xs sm:text-sm">
-              Est. 2008 · Kampala–Luweero Highway, Busula
+              Est. 2008 · Busula Town, near Mukam Mulugi Petrol Station, Luwero
             </span>
           </motion.div>
         )}

@@ -499,8 +499,8 @@ const App: React.FC = () => {
               <div className="space-y-6 sm:space-y-8 lg:space-y-10">
                 <div className="space-y-4 sm:space-y-6 lg:space-y-8">
                   {[
-                    { icon: <MapPin className="text-maroon w-5 h-5"/>, title: 'Address', val: 'Busula, Luweero-Kampala Highway, Uganda' },
-                    { icon: <Phone className="text-maroon w-5 h-5"/>, title: 'Phone', val: '+256 752 685 815' },
+                    { icon: <MapPin className="text-maroon w-5 h-5"/>, title: 'Address', val: 'Busula Town, near Mukam Mulugi Petrol Station, Luwero' },
+                    { icon: <Phone className="text-maroon w-5 h-5"/>, title: 'Phone', val: '+256 752 685 815 / +256 709 240 027 / +256 778 204 671' },
                     { icon: <Mail className="text-maroon w-5 h-5"/>, title: 'Email', val: 'nabiteekorukia12@gmail.com' },
                   ].map((c, i) => (
                     <div key={i} className="flex items-start gap-4 sm:gap-6 p-4 sm:p-6 rounded-xl sm:rounded-2xl border border-gray-100 bg-white shadow-md shadow-black/5 hover:border-maroon/20 transition-colors">
