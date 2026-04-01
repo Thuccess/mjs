@@ -113,9 +113,9 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                 <Phone size={16} className="text-gold shrink-0" />
                 +256 778 204 671
               </a>
-              <a href="mailto:nabiteekorukia12@gmail.com" className="flex items-center gap-2 hover:text-gold transition-colors cursor-pointer">
+              <a href="mailto:mentorjuniorschoolbusula@gmail.com" className="flex items-center gap-2 hover:text-gold transition-colors cursor-pointer">
                 <Mail size={16} className="text-gold shrink-0" />
-                nabiteekorukia12@gmail.com
+                mentorjuniorschoolbusula@gmail.com
               </a>
               <p className="flex items-start gap-2">
                 <MapPin size={16} className="text-gold shrink-0 mt-0.5" />
