@@ -499,7 +499,7 @@ const App: React.FC = () => {
               <div className="space-y-6 sm:space-y-8 lg:space-y-10">
                 <div className="space-y-4 sm:space-y-6 lg:space-y-8">
                   {[
-                    { icon: <MapPin className="text-maroon w-5 h-5"/>, title: 'Address', val: 'Busula Town, near Mukam Mulugi Petrol Station, Luwero' },
+                    { icon: <MapPin className="text-maroon w-5 h-5"/>, title: 'Address', val: 'Busula Town, near Mukama Mulungi Petrol Station, Luwero' },
                     { icon: <Phone className="text-maroon w-5 h-5"/>, title: 'Phone', val: '+256 752 685 815 / +256 709 240 027 / +256 778 204 671' },
                     { icon: <Mail className="text-maroon w-5 h-5"/>, title: 'Email', val: 'mentorjuniorschoolbusula@gmail.com' },
                   ].map((c, i) => (

@@ -119,7 +119,7 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               </a>
               <p className="flex items-start gap-2">
                 <MapPin size={16} className="text-gold shrink-0 mt-0.5" />
-                Busula Town, near Mukam Mulugi Petrol Station, Luwero
+                Busula Town, near Mukama Mulungi Petrol Station, Luwero
               </p>
             </div>
           </div>
