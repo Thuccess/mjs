@@ -5,7 +5,7 @@ import {
   Palette, Music, Code, Globe, Laptop, Microscope, Activity,
   Calendar, Megaphone, Newspaper, FileDown
 } from 'lucide-react';
-import { StudentResult, Facility, BlogPost, TeamMember, GalleryItem, FAQItem } from './types';
+import { StudentResult, Facility, BlogPost, TeamMember, FAQItem } from './types';
 
 export const LOGO_URL = '/logo.png';
 
@@ -138,15 +138,6 @@ export const POLICIES = [
   { title: 'Digital Usage Guidelines', ref: 'MJS-POL-02', status: 'Active' },
   { title: 'Boarding House Rules', ref: 'MJS-POL-03', status: 'Active' },
   { title: 'Academic Integrity Code', ref: 'MJS-POL-04', status: 'Active' }
-];
-
-export const GALLERY: GalleryItem[] = [
-  { id: '1', title: 'Our Campus', category: 'Campus', image: '/school.jpeg' },
-  { id: '2', title: 'Students in Uniform', category: 'Student Life', image: '/school-girls-2.jpeg' },
-  { id: '3', title: 'Break Time', category: 'Student Life', image: '/school-girls-breaktime.jpeg' },
-  { id: '4', title: 'Sports Team', category: 'Sports', image: '/school-boys.jpeg' },
-  { id: '5', title: 'School Building', category: 'Campus', image: '/school-2.jpeg' },
-  { id: '6', title: 'Administration Block', category: 'Campus', image: '/administration-block.jpeg' },
 ];
 
 export const FAQS: FAQItem[] = [

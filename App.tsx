@@ -11,6 +11,7 @@ import ContentSection from './components/ContentSection';
 import Card from './components/Card';
 import StepUI from './components/StepUI';
 import Accordion from './components/Accordion';
+import GalleryPage from './components/GalleryPage';
 import AdminDashboard from './components/admin/AdminDashboard';
 import AdminLoginModal from './components/admin/AdminLoginModal';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -20,7 +21,7 @@ import {
   Megaphone, Shield
 } from 'lucide-react';
 import {
-  GALLERY, BLOG_POSTS, FAQS,
+  BLOG_POSTS, FAQS,
   CURRICULUM_SUBJECTS, FEES_STRUCTURE, ANNOUNCEMENTS, POLICIES, SCHOOL_EVENTS, DOWNLOADS_LIST
 } from './constants';
 
@@ -395,20 +396,7 @@ const App: React.FC = () => {
       );
       case 'gallery': return (
         <main>
-          <PageHeader title="School Gallery" description="Capturing moments of growth, achievement, and culture." breadcrumb="Student Life / Gallery" />
-          <ContentSection>
-            <div className="columns-1 sm:columns-2 lg:columns-3 gap-6 space-y-6">
-              {GALLERY.map((item, i) => (
-                <div key={i} className="break-inside-avoid overflow-hidden rounded-2xl relative group shadow-lg shadow-black/5 border border-gray-100">
-                  <img src={item.image} alt="" className="w-full grayscale transition-all duration-500 group-hover:grayscale-0 group-hover:scale-105" />
-                  <div className="absolute inset-0 bg-linear-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
-                    <span className="text-[9px] font-bold text-amber-200 uppercase tracking-widest mb-1">{item.category}</span>
-                    <h4 className="editorial-text text-white text-lg font-light">{item.title}</h4>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </ContentSection>
+          <GalleryPage />
         </main>
       );
       case 'news': return (

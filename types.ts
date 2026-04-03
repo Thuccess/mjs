@@ -41,13 +41,6 @@ export interface TeamMember {
   image: string;
 }
 
-export interface GalleryItem {
-  id: string;
-  title: string;
-  category: string;
-  image: string;
-}
-
 export interface FAQItem {
   question: string;
   answer: string;
